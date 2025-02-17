@@ -1,0 +1,59 @@
+header{
+    border: 2px solid;
+    height: 200px;
+    background-image: url(/images/zen-background.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 40px;
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+}
+nav{
+    height: 3em;
+    border: 2px solid;
+    background-color: rgb(0, 0, 0);
+}
+nav ul{
+    margin: 0% 23%;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding-left: 3em;
+    margin-top: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+div{
+    width: 80%;
+    margin: 0% 10%;
+}
+div section:nth-child(2n){
+    background-color: rgba(128, 128, 128, 0.507);
+
+}
+div section h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+div section h2::first-letter{
+    color: greenyellow;
+    font-size: 30px;
+}   
+div section p{
+    padding: 5px;
+}
+div section figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+div section figure img{
+    border: 1.5px solid ;
+}
